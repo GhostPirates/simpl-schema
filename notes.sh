@@ -23,6 +23,8 @@ grep -n 'tracker' ./lib/ValidationContext.js | cut -d: -f 1
 START_CUT_LINE_NUMBER=$(grep -n 'if (tracker) {' ./lib/ValidationContext.js | cut -d: -f 1)
 END_CUT_LINE_NUMBER=$(grep -n '_markKeyChanged(key) {' ./lib/ValidationContext.js | cut -d: -f 1)
 
+for 
+
 # Replace the line of the given line number with the given replacement in the given file.
 
 sed -i '33d' file
@@ -40,4 +42,4 @@ function replace-line-in-file() {
 }
 
   
-if (tracker) {
+if (tracker) { 
