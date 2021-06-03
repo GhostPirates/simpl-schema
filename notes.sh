@@ -42,4 +42,4 @@ function replace-line-in-file() {
 }
 
   
-if (tracker) { 
+if (tracker) {  
